@@ -1,0 +1,30 @@
+.slider {
+
+    img {
+        border-radius: 8px;
+        object-fit: cover;
+        max-width: unset !important;
+        // height: unset !important;
+        height: 400px !important;
+
+        @include mobile {
+            height: 250px !important;
+        }
+    }
+}
+
+.slider__img {
+    border-radius: 8px;
+
+    @include mobile {
+        height: 250px;
+    }
+}
+
+// .slider > div:first-child {
+// padding-left: 15px;
+// }
+
+#tns1-item0 {
+    padding-left: 15px;
+}
